@@ -1,9 +1,9 @@
 
-public class main {
+public class ATE {
 
-	public main() {
-		// TODO Auto-generated constructor stub
-	}
+//	public main() {
+//		// TODO Auto-generated constructor stub
+//	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

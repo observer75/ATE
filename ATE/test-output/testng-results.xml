@@ -1,73 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Asserting divide method ]]>
-    </line>
-    <line>
-      <![CDATA[Asserting getA method ]]>
-    </line>
-    <line>
-      <![CDATA[Asserting getB method ]]>
-    </line>
-    <line>
-      <![CDATA[Asserting minus method ]]>
-    </line>
-    <line>
-      <![CDATA[Asserting multiply method ]]>
-    </line>
-    <line>
-      <![CDATA[Asserting plus method]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25" started-at="2016-03-18T15:00:16Z" finished-at="2016-03-18T15:00:16Z">
+  <suite name="Default suite" duration-ms="20" started-at="2016-03-21T15:41:35Z" finished-at="2016-03-21T15:41:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25" started-at="2016-03-18T15:00:16Z" finished-at="2016-03-18T15:00:16Z">
-      <class name="testATE.TestCalculator">
-        <test-method status="PASS" signature="TestDivide()[pri:0, instance:testATE.TestCalculator@d70c109]" name="TestDivide" duration-ms="10" started-at="2016-03-18T17:00:16Z" finished-at="2016-03-18T17:00:16Z">
+    <test name="Default test" duration-ms="20" started-at="2016-03-21T15:41:35Z" finished-at="2016-03-21T15:41:35Z">
+      <class name="testATE.testStrings">
+        <test-method status="PASS" signature="testGetNumberOfWords()[pri:0, instance:testATE.testStrings@d70c109]" name="testGetNumberOfWords" duration-ms="10" started-at="2016-03-21T17:41:35Z" finished-at="2016-03-21T17:41:35Z">
           <reporter-output>
-            <line>
-              <![CDATA[Asserting divide method ]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- TestDivide -->
-        <test-method status="PASS" signature="TestGetA()[pri:0, instance:testATE.TestCalculator@d70c109]" name="TestGetA" duration-ms="1" started-at="2016-03-18T17:00:16Z" finished-at="2016-03-18T17:00:16Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Asserting getA method ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TestGetA -->
-        <test-method status="PASS" signature="TestGetB()[pri:0, instance:testATE.TestCalculator@d70c109]" name="TestGetB" duration-ms="1" started-at="2016-03-18T17:00:16Z" finished-at="2016-03-18T17:00:16Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Asserting getB method ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TestGetB -->
-        <test-method status="PASS" signature="TestMinus()[pri:0, instance:testATE.TestCalculator@d70c109]" name="TestMinus" duration-ms="0" started-at="2016-03-18T17:00:16Z" finished-at="2016-03-18T17:00:16Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Asserting minus method ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TestMinus -->
-        <test-method status="PASS" signature="TestMultiply()[pri:0, instance:testATE.TestCalculator@d70c109]" name="TestMultiply" duration-ms="1" started-at="2016-03-18T17:00:16Z" finished-at="2016-03-18T17:00:16Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Asserting multiply method ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TestMultiply -->
-        <test-method status="PASS" signature="TestPlus()[pri:0, instance:testATE.TestCalculator@d70c109]" name="TestPlus" duration-ms="0" started-at="2016-03-18T17:00:16Z" finished-at="2016-03-18T17:00:16Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Asserting plus method]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TestPlus -->
-      </class> <!-- testATE.TestCalculator -->
+        </test-method> <!-- testGetNumberOfWords -->
+      </class> <!-- testATE.testStrings -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
