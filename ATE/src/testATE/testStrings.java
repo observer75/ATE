@@ -10,8 +10,8 @@ public class testStrings {
 	@Test
 	public void testGetNumberOfWords()
 	{
-		String testString = "  One Two_Three Four   ___  gggg kjhgk";
-		int expectedResult = 6;
+		String testString = "  One Two_Three Four   ___  gggg kjhgk efef vfvfvfv";
+		int expectedResult = 8;
 		Strings stringInstance = new Strings();
 		int actualResults = stringInstance.getNumberOfWords(testString);
 		Reporter.log(testString, actualResults);
