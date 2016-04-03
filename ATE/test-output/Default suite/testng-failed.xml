@@ -5,7 +5,7 @@
     <classes>
       <class name="DemoTask.GmailTest">
         <methods>
-          <include name="chromeLogin"/>
+          <include name="FirefoxLogin"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- DemoTask.GmailTest -->
